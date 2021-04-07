@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31112.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Compilador", "WpfApp1\Compilador.csproj", "{04456FD0-D8DB-42CF-B3D9-D93773612648}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TSimbolos", "TSimbolos\TSimbolos.csproj", "{3EF691E1-48B7-4D24-9806-B7693AD29CCF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{04456FD0-D8DB-42CF-B3D9-D93773612648}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04456FD0-D8DB-42CF-B3D9-D93773612648}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04456FD0-D8DB-42CF-B3D9-D93773612648}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04456FD0-D8DB-42CF-B3D9-D93773612648}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3EF691E1-48B7-4D24-9806-B7693AD29CCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EF691E1-48B7-4D24-9806-B7693AD29CCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EF691E1-48B7-4D24-9806-B7693AD29CCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EF691E1-48B7-4D24-9806-B7693AD29CCF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8096D53F-FB04-4FFC-BC67-B6E5BC323903}
+	EndGlobalSection
+EndGlobal
