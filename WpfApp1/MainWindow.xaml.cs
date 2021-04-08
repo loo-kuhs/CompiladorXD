@@ -1,22 +1,13 @@
-﻿using System;
+﻿using MaterialDesignThemes.Wpf;
+using Microsoft.Win32;
+using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.IO;
+using System.Text.RegularExpressions;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
 using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
-using MaterialDesignThemes.Wpf;
-using System.Text.RegularExpressions;
 using TSimbolos;
-using System.IO;
-using Microsoft.Win32;
 
 namespace WpfApp1
 {
@@ -185,7 +176,7 @@ namespace WpfApp1
         {
             OpenFileDialog openFileDialog = new OpenFileDialog();
             openFileDialog.Title = " Abrir archivo      -        Compilador";
-            openFileDialog.Filter = "Archivos CBuz#(*.Buz)|*.Buz";
+            openFileDialog.Filter = "Archivos Buz#(*.Buz)|*.Buz";
 
             if (openFileDialog.ShowDialog() == true)
                 txtWriter.Text = File.ReadAllText(openFileDialog.FileName);
@@ -196,7 +187,7 @@ namespace WpfApp1
         {
             SaveFileDialog saveFileDialog = new SaveFileDialog();
             saveFileDialog.Title = " Abrir archivo      -        CompiladorBuz ";
-            saveFileDialog.Filter = "Archivos CBuz#(*.Buz)|*.Buz";
+            saveFileDialog.Filter = "Archivos Buz#(*.Buz)|*.Buz";
             if (saveFileDialog.ShowDialog() == true)
                 File.WriteAllText(saveFileDialog.FileName, txtWriter.Text);
         }

@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 
 namespace TSimbolos
 {
@@ -103,9 +99,9 @@ namespace TSimbolos
                     }
                     else
                     {
-                        datos.Add(new Compl(word.Token1, word.Tipo1, 
-                            (linea + 1).ToString(), 
-                            word.IDtoken1.ToString(), regla, 
+                        datos.Add(new Compl(word.Token1, word.Tipo1,
+                            (linea + 1).ToString(),
+                            word.IDtoken1.ToString(), regla,
                             word.DescTipo1));
 
                         return datos;

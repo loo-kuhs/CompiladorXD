@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace TSimbolos
+﻿namespace TSimbolos
 {
     public class ConstructorTSimbolos
     {
@@ -13,7 +7,7 @@ namespace TSimbolos
         private string Tipo;
         private string DescTipo;
 
-        public ConstructorTSimbolos(int iDtoken, string token, 
+        public ConstructorTSimbolos(int iDtoken, string token,
             string tipo, string descTipo)
         {
             IDtoken = iDtoken;

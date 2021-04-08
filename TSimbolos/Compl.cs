@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace TSimbolos
+﻿namespace TSimbolos
 {
     public class Compl
     {
@@ -19,8 +13,8 @@ namespace TSimbolos
         {
         }
 
-        public Compl(string token, string tipo, 
-            string linea, string idTk, string Regla, 
+        public Compl(string token, string tipo,
+            string linea, string idTk, string Regla,
             string Descripcion)
         {
             this.token = token;
